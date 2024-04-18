@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "column",
+    "name": "Merge JSON Object",
+    "description": "Updates a JSON object with another JSON object, only overwriting the keys that exist in the second object.",
+    "author": "Your Name <your@email.com>",
+    "params": [
+      {
+        "name": "baseJSON",
+        "displayName": "Base JSON",
+        "type": "string"
+      },
+      {
+        "name": "updatesJSON",
+        "displayName": "Updater JSON",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
